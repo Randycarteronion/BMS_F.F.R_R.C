@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "name": "STM32",
+      "includePath": [
+        "../../caw-link-fw/caw_es",
+        "../../caw-link-fw/caw_es/drivers/bq76920",
+        "../../caw-link-fw/caw_es/event_callbacks/",
+        "../../caw-link-fw/caw_es/protocols",
+        "../../caw-link-fw/caw_es/utils",
+        "Core/Inc",
+        "Drivers/CMSIS/Device/ST/STM32F1xx/Include",
+        "Drivers/CMSIS/Include",
+        "Drivers/STM32F1xx_HAL_Driver/Inc",
+        "Drivers/STM32F1xx_HAL_Driver/Inc/Legacy",
+        "Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS",
+        "Middlewares/Third_Party/FreeRTOS/Source/include",
+        "Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"
+      ],
+      "defines": [
+        "STM32F103xB",
+        "USE_HAL_DRIVER"
+      ],
+      "compilerPath": "C:\\USERS\\RICK\\APPDATA\\ROAMING\\CODE\\USER\\GLOBALSTORAGE\\BMD.STM32-FOR-VSCODE\\@XPACK-DEV-TOOLS\\ARM-NONE-EABI-GCC\\13.2.1-1.1.1\\.CONTENT\\BIN\\ARM-NONE-EABI-GCC.EXE"
+    }
+  ],
+  "version": 4
+}
